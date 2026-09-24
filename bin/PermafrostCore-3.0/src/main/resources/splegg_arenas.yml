@@ -1,0 +1,52 @@
+arenas:
+  Storm:
+    world: "voidworld"
+    schematic: "storm_splegg.schem"
+    pasteOrigin: voidworld,16700,100,16700
+    fallLevel: 81
+    teams:
+      - name: "Blue"
+        color: "BLUE"
+        spawns:
+          - { x: 11, y: -1, z: -1 }
+        single-block: 1
+      - name: "Red"
+        color: "RED"
+        spawns:
+          - { x: -11, y: -1, z: -1 }
+        single-block: 1
+      - name: "Green"
+        color: "GREEN"
+        spawns:
+          - { x: 0, y: -1, z: -12 }
+        single-block: 1
+      - name: "Yellow"
+        color: "YELLOW"
+        spawns:
+          - { x: 3, y: 0, z: -10 }
+        single-block: 0
+      - name: "Orange"
+        color: "ORANGE"
+        spawns:
+          - { x: -3, y: 0, z: -10 }
+        single-block: 0
+      - name: "Purple"
+        color: "PURPLE"
+        spawns:
+          - { x: 8, y: 0, z: 8 }
+        single-block: 0
+      - name: "Pink"
+        color: "PINK"
+        spawns:
+          - { x: -8, y: 0, z: 8 }
+        single-block: 0
+      - name: "Light blue"
+        color: "LIGHT BLUE"
+        spawns:
+          - { x: 5, y: -1, z: -10 }
+        single-block: 1
+      - name: "Magenta"
+        color: "MAGENTA"
+        spawns:
+          - { x: -5, y: -1, z: -10 }
+        single-block: 1

@@ -1,0 +1,103 @@
+arenas:
+   FlatRed:
+      world: voidworld
+      schematic: flatred.schem
+      pasteOrigin: voidworld,9000,100,9000
+      fallLevel: 99
+      spawns:
+      -  number: 8
+         location1: voidworld,9000,100,8973
+         location2: voidworld,9000,100,9027
+         location3: voidworld,8973,100,9000
+         location4: voidworld,9027,100,9000
+         location5: voidworld,9019,100,8981
+         location6: voidworld,8981,100,9019
+         location7: voidworld,8981,100,8981
+         location8: voidworld,9019,100,9019
+   FlatBlue:
+      world: voidworld
+      schematic: flatblue.schem
+      pasteOrigin: voidworld,9500,100,9500
+      fallLevel: 99
+      spawns:
+      -  number: 2
+         location1: voidworld,9500,100,9473
+         location2: voidworld,9500,100,9527
+         location3: voidworld,9473,100,9500
+         location4: voidworld,9527,100,9500
+         location5: voidworld,9519,100,9481
+         location6: voidworld,9481,100,9519
+         location7: voidworld,9481,100,9481
+         location8: voidworld,9519,100,9519
+   FlatLightBlue:
+      world: voidworld
+      schematic: flatlightblue.schem
+      pasteOrigin: voidworld,8500,100,8500
+      fallLevel: 99
+      spawns:
+      -  number: 2
+         location1: voidworld,8500,100,8473
+         location2: voidworld,8500,100,8527
+         location3: voidworld,8473,100,8500
+         location4: voidworld,8527,100,8500
+         location5: voidworld,8519,100,8481
+         location6: voidworld,8481,100,8519
+         location7: voidworld,8481,100,8481
+         location8: voidworld,8519,100,8519
+   FlatPurple:
+      world: voidworld
+      schematic: flatpurple.schem
+      pasteOrigin: voidworld,7500,100,7000
+      fallLevel: 99
+      spawns:
+      -  number: 2
+         location1: voidworld,7500,100,6973
+         location2: voidworld,7500,100,7027
+         location3: voidworld,7473,100,7000
+         location4: voidworld,7527,100,7000
+         location5: voidworld,7519,100,6981
+         location6: voidworld,7481,100,7019
+         location7: voidworld,7481,100,6981
+         location8: voidworld,7519,100,7019
+   TheStrip:
+      world: voidworld
+      schematic: thestrip.schem
+      pasteOrigin: voidworld,2000,67,9
+      fallLevel: 65
+      spawns:
+      -  number: 2
+         location1: voidworld,2000,66,-24
+         location2: voidworld,2000,66,42
+         location3: voidworld,1985,67,9
+         location4: voidworld,2015,67,9
+   Blossom:
+      world: voidworld
+      schematic: blossom.schem
+      pasteOrigin: voidworld,3000,65,10
+      fallLevel: 63
+      spawns:
+      -  number: 2
+         location1: voidworld,2983,65,27
+         location2: voidworld,3017,65,-6
+         location3: voidworld,2979,64,-10
+         location4: voidworld,3021,64,31
+   Compass:
+      world: voidworld
+      schematic: compass.schem
+      pasteOrigin: voidworld,-1112,66,10
+      fallLevel: 64
+      spawns:
+      -  number: 2
+         location1: voidworld,-1095,66,27
+         location2: voidworld,-1128,66,-6
+         location3: voidworld,-1128,65,27
+         location4: voidworld,-1094,65,-6
+   Shield:
+      world: voidworld
+      schematic: shield.schem
+      pasteOrigin: voidworld,-218,63,-1
+      fallLevel: 64
+      spawns:
+      -  number: 2
+         location1: voidworld,-218,63,14
+         location2: voidworld,-218,63,-17

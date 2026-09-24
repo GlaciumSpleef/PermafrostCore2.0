@@ -1,0 +1,27 @@
+arenas:
+  Proto:
+    schematic: prototypearena.schem
+    center: voidworld,1000,100,0
+    playerspawns:
+      -  location1: voidworld,982,100,0
+         location2: voidworld,1000,100,-18
+         location3: voidworld,1018,100,0
+         location4: voidworld,1000,100,18
+         location5: voidworld,964,100,18
+         location6: voidworld,964,100,-18
+         location7: voidworld,982,100,-36
+         location8: voidworld,1018,100,-36
+         location9: voidworld,1036,100,-18
+         location10: voidworld,1036,100,18
+         location11: voidworld,1018,100,36
+         location12: voidworld,982,100,36
+    circlespawns:
+      -  location1: voidworld,1000,100,0
+         location2: voidworld,1036,100,0
+         location3: voidworld,1018,100,18
+         location4: voidworld,1000,100,36
+         location5: voidworld,982,100,18
+         location6: voidworld,964,100,0
+         location7: voidworld,982,100,-18
+         location8: voidworld,1000,100,-36
+         location9: voidworld,1018,100,-18

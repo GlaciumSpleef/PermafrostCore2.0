@@ -1,0 +1,36 @@
+arenas:
+  Void:
+    spawn1: voidworld,877,100,7000
+    spawn2: voidworld,873,100,7000
+    banner1: voidworld,884,100,7009
+    banner2: voidworld,866,100,7009
+  Void2:
+    spawn1: voidworld,877,100,6000
+    spawn2: voidworld,873,100,6000
+    banner1: voidworld,884,100,6009
+    banner2: voidworld,866,100,6009
+  Void3:
+    spawn1: voidworld,877,100,5000
+    spawn2: voidworld,873,100,5000
+    banner1: voidworld,884,100,5009
+    banner2: voidworld,866,100,5009
+  Void4:
+    spawn1: voidworld,877,100,4000
+    spawn2: voidworld,873,100,4000
+    banner1: voidworld,884,100,4009
+    banner2: voidworld,866,100,4009
+  Void5:
+    spawn1: voidworld,877,100,3000
+    spawn2: voidworld,873,100,3000
+    banner1: voidworld,884,100,3009
+    banner2: voidworld,866,100,3009
+  Void6:
+    spawn1: voidworld,877,100,2000
+    spawn2: voidworld,873,100,2000
+    banner1: voidworld,884,100,2009
+    banner2: voidworld,866,100,2009
+  Void7:
+    spawn1: voidworld,877,100,8000
+    spawn2: voidworld,873,100,8000
+    banner1: voidworld,884,100,8009
+    banner2: voidworld,866,100,8009

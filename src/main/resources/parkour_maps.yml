@@ -1,0 +1,7 @@
+maps:
+  CandyLand:
+    spawnLoc1: parkour,2000,100,2000
+    spawnLoc2: parkour,1983,100,2000
+    endLoc1: parkour,2000,109,2122
+    endLoc2: parkour,1982,109,2122
+    fallLevel: 99

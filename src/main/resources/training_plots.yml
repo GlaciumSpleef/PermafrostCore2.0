@@ -1,0 +1,13 @@
+plots:
+  circlereach:
+    schematic: reachomnisolo1.schem
+    maxPlayers: 1
+    blocksToBreak: 36
+    timer: true
+    offset: true
+  diagonalruin:
+    schematic: ruindiagonalsolo1.schem
+    maxPlayers: 1
+    blocksToBreak: 4
+    timer: false
+    offset: true

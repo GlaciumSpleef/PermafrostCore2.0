@@ -1,0 +1,7 @@
+mysql:
+  host: "bos-sr-4-16-4.akliz.net"
+  port: 3306
+  database: "s405769"
+  username: "s405769"
+  password: "974ba434"
+  useSSL: true

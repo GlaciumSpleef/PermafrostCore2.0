@@ -1,0 +1,95 @@
+name: PermafrostCore
+main: io.paper.permafrost.Main
+version: 1.0
+api-version: 1.21
+commands:
+  spleef:
+    description: teleports player to spleef arena, gives a shovel
+    aliases: [s]  
+  spawn:
+    description: teleports player to spawn
+    usage: /spawn
+    aliases: [hub, leave, lobby, 1]
+  endgame:
+    description: ends the current spleef game
+    usage: /endgame
+  spectate:
+    description: spectates the given player
+    usage: /spectate
+    aliases: [watch]
+  teamspleef:
+    description: send spleef duels with multiple people
+    usage: /teamspleef
+    aliases: [ts]
+  hover:
+    description: click to accept duel
+    usage: /hover
+  teams:
+    description: displays the teams in the current game
+    usage: /teams
+  playto:
+    description: changes the score that the game is played to
+    usage: /playto
+  powers:
+    description: select the powers you want to enhance your shovel with
+    usage: /powers
+  matches:
+    description: displays the current spleef games
+    usage: /matches
+  duelaccept:
+    description: Accept a duel request
+    usage: /duelaccept
+  dueldeny:
+    description: Deny a duel request
+    usage: /dueldeny
+  duelcancel:
+    description: Cancel a duel request you sent
+    usage: /duelcancel
+  duel:
+    description: Send a duel request for a 1v1
+    usage: /duel
+  training:
+    description: Warp to the training island
+    usage: /training
+  invite:
+    description: invite a player or accept their request to join your training session
+    usage: /invite
+  join:
+    description: accept an invite or request to join a player's training session
+    usage: /join
+  endsession:
+    description: end your training session
+    usage: /endsession
+  leave:
+    description: leave the training session
+    usage: /leave
+  admin:
+    description: Admin commands
+    usage: /admin plot <create|edit>
+    permission: permafrost.admin
+    permission-message: "&cYou do not have permission to use admin commands."
+  trainingstatistics:
+    description: view your training statistics
+    usage: /trainingstatistics
+  spleggqueue:
+    description: join the splegg queue
+    usage: /spleggqueue
+  votestart:
+    description: vote to start with under 8 players in the splegg queue
+    usage: /votestart
+  vote:
+    description: vote for your favorite map in splegg ffa
+    usage: /vote
+  nvn:
+    description: use to toggle night vision
+    usage: /nvn
+  fendgame:
+    description: Force ends any active game by target player
+    usage: /fendgame <player>
+permissions:
+  permafrost.admin:
+    description: Full admin access to PermafrostCore
+    default: false
+  permafrostcore.fendgame:
+    description: Allows force ending any game
+    default: op

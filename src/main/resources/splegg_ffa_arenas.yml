@@ -1,0 +1,137 @@
+arenas:
+   Bloom:
+      world: spleggffa
+      schematic: bloom.schem
+      pasteOrigin: spleggffa,1000,123,1000
+      fallLevel: 98
+      size: small
+      spawns:
+      -  number: 1
+         location1: spleggffa,1000,123,1000
+   Atomar:
+      world: spleggffa
+      schematic: atomar.schem
+      pasteOrigin: spleggffa,2000,100,2000
+      fallLevel: 83
+      size: small
+      spawns:
+      -  number: 3
+         location1: spleggffa,2006,100,1989
+         location2: spleggffa,2005,100,2009
+         location3: spleggffa,1989,100,1998
+   Autumn:
+      world: spleggffa
+      schematic: autumn_leaves.schem
+      pasteOrigin: spleggffa,3000,100,3000
+      fallLevel: 79
+      size: large
+      spawns:
+      -  number: 2
+         location1: spleggffa,3000,100,2978
+         location2: spleggffa,2999,100,3022
+   Burst:
+      world: spleggffa
+      schematic: burst.schem
+      pasteOrigin: spleggffa,4000,100,4000
+      fallLevel: 85
+      size: large
+      spawns:
+      -  number: 1
+         location1: spleggffa,4000,100,4000
+   Pinkme:
+      world: spleggffa
+      schematic: pinkme.schem
+      pasteOrigin: spleggffa,5000,100,5000
+      fallLevel: 83
+      size: small
+      spawns:
+      -  number: 1
+         location1: spleggffa,5000,100,5000
+   Starmie:
+      world: spleggffa
+      schematic: starmie.schem
+      pasteOrigin: spleggffa,6000,100,6000
+      fallLevel: 87
+      size: medium
+      spawns:
+      -  number: 1
+         location1: spleggffa,6000,100,6000
+   Pokemon:
+      world: spleggffa
+      schematic: pokemon.schem
+      pasteOrigin: spleggffa,8000,100,8000
+      fallLevel: 90
+      size: large
+      spawns:
+      -  number: 4
+         location1: spleggffa,7978,103,8000
+         location2: spleggffa,8000,103,7978
+         location3: spleggffa,8023,103,8000
+         location4: spleggffa,8000,103,8023
+   Storm:
+      world: spleggffa
+      schematic: storm.schem
+      pasteOrigin: spleggffa,9000,100,9000
+      fallLevel: 82
+      size: small
+      spawns:
+      -  number: 2
+         location1: spleggffa,9011,100,8998
+         location2: spleggffa,8989,100,8998
+   Cars:
+      world: spleggffa
+      schematic: cars.schem
+      pasteOrigin: spleggffa,10000,100,10000
+      fallLevel: 78
+      size: medium
+      spawns:
+      -  number: 2
+         location1: spleggffa,10000,100,10007
+         location2: spleggffa,10000,100,9993
+   Cell:
+      world: spleggffa
+      schematic: cell.schem
+      pasteOrigin: spleggffa,13998,140,13999
+      fallLevel: 130
+      size: medium
+      spawns:
+      -  number: 6
+         location1: spleggffa,13973,141,14011
+         location2: spleggffa,13972,141,13993
+         location3: spleggffa,14024,141,13393
+         location4: spleggffa,14024,141,14007
+         location5: spleggffa,13998,140,13993
+         location6: spleggffa,13998,140,14005
+   Saturn:
+      world: spleggffa
+      schematic: saturn.schem
+      pasteOrigin: spleggffa,13000,108,12996
+      fallLevel: 91
+      size: small
+      spawns:
+      -  number: 4
+         location1: spleggffa,13000.5,108,12990
+         location2: spleggffa,13000.5,108,13003
+         location3: spleggffa,12994,108,12996.5
+         location4: spleggffa,13007,108,12996.5
+   Petal Power:
+      world: spleggffa
+      schematic: petal_power.schem
+      pasteOrigin: spleggffa,12000,133,12000
+      fallLevel: 116
+      size: large
+      spawns:
+      -  number: 1
+         location1: spleggffa,12000,133,12000
+   Tree Fiddy:
+      world: spleggffa
+      schematic: treefiddy.schem
+      pasteOrigin: spleggffa,11000,120,11000
+      fallLevel: 110
+      size: medium
+      spawns:
+      -  number: 4
+         location1: spleggffa,11000,126,10992
+         location2: spleggffa,11000,126,11008
+         location3: spleggffa,11007,126,11000
+         location4: spleggffa,10993,126,11000

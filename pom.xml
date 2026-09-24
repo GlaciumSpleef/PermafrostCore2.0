@@ -1,0 +1,171 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>PermafrostCore</groupId>
+	<artifactId>PermafrostCore</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>PermafrostCore</name>
+
+	<!-- ✅ Java version configuration -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+
+	<!-- ✅ Repositories -->
+	<repositories>
+		<!-- FancyNPC's -->
+		<repository>
+			<id>fancyinnovations-releases</id>
+			<name>FancyInnovations Repository</name>
+			<url>https://repo.fancyinnovations.com/releases</url>
+		</repository>
+		<repository>
+			<id>papermc</id>
+			<url>https://repo.papermc.io/repository/maven-public/</url>
+		</repository>
+		<repository>
+			<id>enginehub-repo</id>
+			<url>https://maven.enginehub.org/repo/</url>
+		</repository>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+		<repository>
+			<id>dmulloy2-repo</id>
+			<url>https://repo.dmulloy2.net/repository/public/</url>
+		</repository>
+		<repository>
+			<id>lunarclient</id>
+			<url>https://repo.lunarclient.dev</url>
+		</repository>
+	</repositories>
+
+
+	<!-- ✅ Dependencies -->
+
+	<dependencies>
+		<!-- Apollo -->
+		<dependency>
+			<groupId>com.lunarclient</groupId>
+			<artifactId>apollo-api</artifactId>
+			<version>1.2.6</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- For Adventure support add the following dependency. -->
+		<dependency>
+			<groupId>com.lunarclient</groupId>
+			<artifactId>apollo-extra-adventure4</artifactId>
+			<version>1.2.6</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Luck Perms -->
+		<dependency>
+			<groupId>net.luckperms</groupId>
+			<artifactId>api</artifactId>
+			<version>5.4</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- FancyNPC's -->
+		<dependency>
+			<groupId>de.oliver</groupId>
+			<artifactId>FancyNpcs</artifactId>
+			<version>2.8.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Paper API -->
+		<dependency>
+			<groupId>io.papermc.paper</groupId>
+			<artifactId>paper-api</artifactId>
+			<version>1.21.4-R0.1-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- FAWE Core -->
+		<dependency>
+			<groupId>com.fastasyncworldedit</groupId>
+			<artifactId>FastAsyncWorldEdit-Core</artifactId>
+			<version>2.9.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- FAWE Bukkit -->
+		<dependency>
+			<groupId>com.fastasyncworldedit</groupId>
+			<artifactId>FastAsyncWorldEdit-Bukkit</artifactId>
+			<version>2.9.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- DiscordSRV -->
+		<dependency>
+			<groupId>com.discordsrv</groupId>
+			<artifactId>discordsrv</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>
+				C:/Users/danie/eclipse-workspace/PermafrostCore/lib/DiscordSRV-Build-1.29.0.jar</systemPath>
+		</dependency>
+
+		<!-- Mojang Authlib -->
+		<dependency>
+			<groupId>com.mojang</groupId>
+			<artifactId>authlib</artifactId>
+			<version>1.5.25</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- MYSQL -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.Huskehhh</groupId>
+			<artifactId>MySQL</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.zaxxer</groupId>
+			<artifactId>HikariCP</artifactId>
+			<version>4.0.3</version>
+			<scope>compile</scope>
+		</dependency>
+		<!-- Fancy Holograms -->
+		<dependency>
+			<groupId>de.oliver</groupId>
+			<artifactId>FancyHolograms</artifactId>
+			<version>2.9.1</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- Protocol Lib -->
+		<dependency>
+			<groupId>net.dmulloy2</groupId>
+			<artifactId>ProtocolLib</artifactId>
+			<version>5.4.0</version>
+		</dependency>
+	</dependencies>
+
+	<!-- ✅ Compiler plugin for Java 21 -->
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.11.0</version>
+				<configuration>
+					<source>21</source>
+					<target>21</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
+

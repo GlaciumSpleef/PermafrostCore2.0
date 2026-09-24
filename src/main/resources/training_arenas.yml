@@ -1,0 +1,51 @@
+arenas:
+  Box:
+    world: "training"
+    playerSpawn: training,1340,78,1319
+    plotPasteLocation: training,1340,77,1335
+    type: "SPLEEF"
+  Box2:
+    world: "training"
+    playerSpawn: training,2033,92,1244
+    plotPasteLocation: training,2033,92,1260
+    type: "SPLEEF"
+  Box3:
+    world: "training"
+    playerSpawn: training,3033,92,1244
+    plotPasteLocation: training,3033,92,1260
+    type: "SPLEEF"
+  Box4:
+    world: "training"
+    playerSpawn: training,4033,92,1244
+    plotPasteLocation: training,4033,92,1260
+    type: "SPLEEF"
+  Box5:
+    world: "training"
+    playerSpawn: training,5033,92,1244
+    plotPasteLocation: training,5033,92,1260
+    type: "SPLEEF"
+  Box6:
+    world: "training"
+    playerSpawn: training,6033,92,1244
+    plotPasteLocation: training,6033,92,1260
+    type: "SPLEEF"
+  Box7:
+    world: "training"
+    playerSpawn: training,7033,92,1244
+    plotPasteLocation: training,7033,92,1260
+    type: "SPLEEF"
+  Box8:
+    world: "training"
+    playerSpawn: training,8033,92,1244
+    plotPasteLocation: training,8033,92,1260
+    type: "SPLEEF"
+  Box9:
+    world: "training"
+    playerSpawn: training,9033,92,1244
+    plotPasteLocation: training,9033,92,1260
+    type: "SPLEEF"
+  Box10:
+    world: "training"
+    playerSpawn: training,10033,92,1244
+    plotPasteLocation: training,10033,92,1260
+    type: "SPLEEF"

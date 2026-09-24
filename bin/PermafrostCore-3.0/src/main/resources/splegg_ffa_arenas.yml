@@ -1,0 +1,82 @@
+arenas:
+   Bloom:
+      world: spleggffa
+      schematic: bloom.schem
+      pasteOrigin: spleggffa,1000,101,1000
+      fallLevel: 76
+      size: small
+      spawns:
+      -  number: 1
+         location1: spleggffa,1000,101,1000
+   Atomar:
+      world: spleggffa
+      schematic: atomar.schem
+      pasteOrigin: spleggffa,2000,100,2000
+      fallLevel: 83
+      size: small
+      spawns:
+      -  number: 3
+         location1: spleggffa,2006,100,1989
+         location2: spleggffa,2005,100,2009
+         location3: spleggffa,1989,100,1998
+   Autumn:
+      world: spleggffa
+      schematic: autumn_leaves.schem
+      pasteOrigin: spleggffa,3000,100,3000
+      fallLevel: 79
+      size: large
+      spawns:
+      -  number: 2
+         location1: spleggffa,3000,100,2978
+         location2: spleggffa,2999,100,3022
+   Burst:
+      world: spleggffa
+      schematic: burst.schem
+      pasteOrigin: spleggffa,4000,100,4000
+      fallLevel: 85
+      size: large
+      spawns:
+      -  number: 1
+         location1: spleggffa,4000,100,4000
+   Pinkme:
+      world: spleggffa
+      schematic: pinkme.schem
+      pasteOrigin: spleggffa,5000,100,5000
+      fallLevel: 83
+      size: medium
+      spawns:
+      -  number: 1
+         location1: spleggffa,5000,100,5000
+   Starmie:
+      world: spleggffa
+      schematic: starmie.schem
+      pasteOrigin: spleggffa,6000,100,6000
+      fallLevel: 87
+      size: medium
+      spawns:
+      -  number: 1
+         location1: spleggffa,6000,100,6000
+   Spaceswirl:
+      world: spleggffa
+      schematic: spaceswirl.schem
+      pasteOrigin: spleggffa,7000,100,7000
+      fallLevel: 99
+      size: large
+      spawns:
+      -  number: 4
+         location1: spleggffa,7000,114,7012
+         location2: spleggffa,7000,114,6991
+         location3: spleggffa,6989,114,7000
+         location4: spleggffa,7011,114,7000
+   Pokemon:
+      world: spleggffa
+      schematic: pokemon.schem
+      pasteOrigin: spleggffa,8000,100,8000
+      fallLevel: 90
+      size: large
+      spawns:
+      -  number: 4
+         location1: spleggffa,7978,103,8000
+         location2: spleggffa,8000,103,7978
+         location3: spleggffa,8023,103,8000
+         location4: spleggffa,8000,103,8023

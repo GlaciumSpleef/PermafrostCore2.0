@@ -1,0 +1,79 @@
+arenas:
+  Void:
+    corner1: voidworld,2000,100,2000
+    corner2: voidworld,2020,100,1980
+    center: voidworld,2010,100,1990
+    border: voidworld,0,0,0
+    maxplayers: 100
+  Void2:
+    corner1: voidworld,2000,102,2351
+    corner2: voidworld,2020,102,2331
+    center: voidworld,2010,102,2341
+    border: voidworld,0,0,0
+    maxplayers: 100
+  Void3:
+    corner1: voidworld,2000,104,2702
+    corner2: voidworld,2020,104,2682
+    center: voidworld,2010,104,2692
+    border: voidworld,0,0,0
+    maxplayers: 100
+  Void4:
+    corner1: voidworld,2000,106,3053
+    corner2: voidworld,2020,106,3033
+    center: voidworld,2010,106,3043
+    border: voidworld,0,0,0
+    maxplayers: 100
+  Village:
+    corner1: voidworld,-1011,99,-991
+    corner2: voidworld,-991,99,-1011
+    center: voidworld,-1001,99,-1001
+    border: voidworld,-1000,103,-1013
+    maxplayers: 4
+  Village2:
+    corner1: voidworld,-987,132,-292
+    corner2: voidworld,-967,132,-312
+    center: voidworld,-977,132,-302
+    border: voidworld,-977,136,-289
+    maxplayers: 4
+  Geode:
+    corner1: voidworld,3540,147,3561
+    corner2: voidworld,3560,147,3541
+    center: voidworld,3550,147,3551
+    border: voidworld,3550,150,3565
+    maxplayers: 4
+  Geode2:
+    corner1: voidworld,3664,152,3454
+    corner2: voidworld,3684,152,3434
+    center: voidworld,3674,152,3444
+    border: voidworld,3660,155,3444
+    maxplayers: 4
+  Runic:
+    corner1: voidworld,4327,24,4295
+    corner2: voidworld,4347,24,4275
+    center: voidworld,4337,24,4285
+    border: voidworld,0,0,0
+    maxplayers: 30
+  Clouds:
+    corner1: voidworld,3539,185,3330
+    corner2: voidworld,3559,185,3310
+    center: voidworld,3549,185,3320
+    border: voidworld,3526,192,3320
+    maxplayers: 20
+  Clouds2:
+    corner1: voidworld,3721,186,3284
+    corner2: voidworld,3741,186,3264
+    center: voidworld,3731,186,3274
+    border: voidworld,3731,191,3297
+    maxplayers: 20
+  Castle:
+    corner1: voidworld,4472,109,3629
+    corner2: voidworld,4500,109,3601
+    center: voidworld,4486,109,3615
+    border: voidworld,4486,109,3640
+    maxplayers: 12
+  Castle2:
+    corner1: voidworld,4072,116,3641
+    corner2: voidworld,4092,116,3621
+    center: voidworld,4082,116,3631
+    border: voidworld,4082,116,3656
+    maxplayers: 12
